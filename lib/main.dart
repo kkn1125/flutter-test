@@ -155,7 +155,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             textAlign: TextAlign.center,
                           )),
                           Text(
-                            '$_counter번 $_imageHeight',
+                            '$_counter번',
                             style: Theme.of(context).textTheme.headlineMedium,
                           ),
                         ],
@@ -164,7 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Container(
                       // width: double.infinity,
                       width: MediaQuery.of(context).size.width,
-                      height: MediaQuery.of(context).size.height,
+                      height: 100,
                       alignment: Alignment.bottomCenter,
                       decoration: BoxDecoration(
                         image: DecorationImage(
